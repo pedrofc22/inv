@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación a la Fiesta</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            background-image: url(HD-wallpaper-mago-de-oz-logo-rock-theme.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        .invitacion {
+            background-color: #00000081;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color:#ffffffbe;
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-shadow: 5px, white;
+        }
+        p {
+            font-size: 18px;
+            color: #ffffff;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .detalles {
+            font-size: 16px;
+            color: #555;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+/* Estilos del botón */
+.btn{
+    background: linear-gradient(45deg, rgba(0, 153, 255, 0.562), rgba(0, 17, 255, 0.336), rgba(0, 225, 255, 0.582));
+    background-size: 400% 400%; /* Aumentamos el tamaño para que el gradiente pueda moverse */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: moverColores 5s linear infinite; /* Animación infinita y suave */
+    text-align: center;
+    outline: none;
+}
+
+/* Definir la animación del gradiente */
+@keyframes moverColores {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="invitacion">
+        <h1>¡Estás invitado!</h1>
+        <p>Nos encantaría contar con tu presencia para celebrar a Carlos en una fiesta muy especial.</p>
+        <div class="detalles">
+            <p><strong>Fecha:</strong> 28 de diciembre de 2024</p>
+            <p><strong>Hora:</strong> 5:00 PM</p>
+            <p><strong>Ubicación:</strong> Agustin Acosta Lagunes, Calle #17, Entre Cortes y Juan Soto</p>
+        </div>
+        <a href="https://forms.gle/fL8Yedvq7c89YkBY6" class="btn">¡Confirma tu asistencia!</a>
+    </div>
+</body>
+</html>
